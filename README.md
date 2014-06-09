@@ -5,14 +5,12 @@ This Android project is based on the AutoTextComplete when anyone type inside th
 
 
 Properties:
-===========================
+
 
   Replace your Google API key here.
-
 	private static final String API_KEY = "Google API Key";
 	
-	XML:
-===========================
+XML:
 
 	  <AutoCompleteTextView
         android:id="@+id/autoCompleteTextView_test"
@@ -22,8 +20,7 @@ Properties:
         android:ems="10" >
     </AutoCompleteTextView>
 	
-	JAVA:
-===========================
+JAVA:
 
 You need to implements the Filterable Class and its override method:
 
