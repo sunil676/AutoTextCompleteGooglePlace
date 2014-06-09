@@ -24,16 +24,19 @@ JAVA:
 
 You need to implements the Filterable Class and its override method:
 
- @Override
-    public int getCount() {
-        return resultList.size();
-    }
+ 
+ 
 
     @Override
     public String getItem(int index) {
         return resultList.get(index);
     }
 
+   @Override
+    public int getCount() {
+        return resultList.size();
+    }
+    
     @Override
     public Filter getFilter() {
         Filter filter = new Filter() {
